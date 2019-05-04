@@ -19,7 +19,7 @@ $ npm install -g pmgr-cli
 $ pmgr COMMAND
 running command...
 $ pmgr (-v|--version|version)
-pmgr-cli/0.0.3 darwin-x64 node-v12.0.0
+pmgr-cli/0.0.4 darwin-x64 node-v12.0.0
 $ pmgr --help [COMMAND]
 USAGE
   $ pmgr COMMAND
@@ -63,5 +63,5 @@ DESCRIPTION
   Init with New Project with git and npm (or yarn).
 ```
 
-_See code: [src/commands/init.js](https://github.com/0x77dev/pm/pm/blob/v0.0.3/src/commands/init.js)_
+_See code: [src/commands/init.js](https://github.com/0x77dev/pm/blob/v0.0.4/src/commands/init.js)_
 <!-- commandsstop -->
