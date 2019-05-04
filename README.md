@@ -16,28 +16,28 @@ The Node.js Project Manager.
 <!-- usage -->
 ```sh-session
 $ npm install -g pmgr-cli
-$ pmgr COMMAND
+$ pm COMMAND
 running command...
-$ pmgr (-v|--version|version)
-pmgr-cli/0.0.1 darwin-x64 node-v12.0.0
-$ pmgr --help [COMMAND]
+$ pm (-v|--version|version)
+pmgr-cli/0.0.2 darwin-x64 node-v12.0.0
+$ pm --help [COMMAND]
 USAGE
-  $ pmgr COMMAND
+  $ pm COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`pmgr help [COMMAND]`](#pm-help-command)
-* [`pmgr init`](#pm-init)
+* [`pm help [COMMAND]`](#pm-help-command)
+* [`pm init`](#pm-init)
 
-## `pmgr help [COMMAND]`
+## `pm help [COMMAND]`
 
-display help for pmgr
+display help for pm
 
 ```
 USAGE
-  $ pmgr help [COMMAND]
+  $ pm help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
@@ -48,7 +48,7 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
 
-## `pmgr init`
+## `pm init`
 
 Init with New Project with git and npm (or yarn).
 
@@ -63,5 +63,5 @@ DESCRIPTION
   Init with New Project with git and npm (or yarn).
 ```
 
-_See code: [src/commands/init.js](https://github.com/0x77dev/pm/blob/v0.0.1/src/commands/init.js)_
+_See code: [src/commands/init.js](https://github.com/0x77dev/pm/pm/blob/v0.0.2/src/commands/init.js)_
 <!-- commandsstop -->
