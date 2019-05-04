@@ -6,7 +6,7 @@
   "bin": {
     "pmgr": "./bin/run"
   },
-  "bugs": "https://github.com/https://github.com/0x77dev/pm/pm/issues",
+  "bugs": "https://github.com/0x77dev/pm/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -28,7 +28,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/https://github.com/0x77dev/pm/pm",
+  "homepage": "https://github.com/0x77dev/pm",
   "keywords": [
     "oclif",
     "manager",
@@ -46,7 +46,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "https://github.com/0x77dev/pm/pm",
+  "repository": "https://github.com/0x77dev/pm",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "prepack": "oclif-dev manifest && oclif-dev readme",
