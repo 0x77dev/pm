@@ -1,10 +1,10 @@
 {
-  "name": "pm",
+  "name": "pmgr-cli",
   "description": "The Node.js Project Manager.",
   "version": "0.0.1",
   "author": "Михаил Мариненко @0x77dev",
   "bin": {
-    "pm": "./bin/run"
+    "pmgr": "./bin/run"
   },
   "bugs": "https://github.com/https://github.com/0x77dev/pm/pm/issues",
   "dependencies": {
