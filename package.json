@@ -41,7 +41,7 @@
   "main": "src/index.js",
   "oclif": {
     "commands": "./src/commands",
-    "bin": "pm",
+    "bin": "pmgr",
     "plugins": [
       "@oclif/plugin-help"
     ]
